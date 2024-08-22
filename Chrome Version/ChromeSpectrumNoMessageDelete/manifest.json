@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Star Citizen : Spectrum Deleted Message Logger",
+  "description": "Logs deleted messages.",
+  "version": "1.3",
+  "icons": {
+    "48": "icons/SpectrumLogo.png"
+  },
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.robertsspaceindustries.com/*"
+      ],
+      "js": [
+        "sdml.js"
+      ]
+    }
+  ]
+}
