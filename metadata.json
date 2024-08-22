@@ -1,0 +1,18 @@
+{
+    "version": {
+        "license": "MIT"
+    },
+    "categories": {
+        "firefox": [
+            "social-communication",
+            "games-entertainment"
+        ]
+    },
+    "summary": {
+        "en-US": "Restore deleted messages in Spectrum, a Social Network built for the game Star Citizen."
+    },
+    "description": {
+        "en-US": "Monitors the currently opened Spectrum chat lobbies and restores messages that get deleted. <br>Channels currently supported; <br><br>#general<br>#sc-testing-chat"
+    },
+    "requires_payment": false
+}
